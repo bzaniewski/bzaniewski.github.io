@@ -1,50 +1,182 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
-  <link rel="icon" type="image/x-icon" href="...">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-</head>
-
-<body>
-  <main class="my-anim">
-
-<section class="skills container">
-  <div>
-    <i class="devicon-html5-plain-wordmark"></i>
-    <h2>HTML 5</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ullam saepe qui voluptatum vero alias libero voluptatem facilis est exercitationem!</p>
-  </div>
-  <div>
-    <i class="devicon-css3-plain-wordmark"></i>
-    <h2>CSS 3</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ullam saepe qui voluptatum vero alias libero voluptatem facilis est exercitationem!</p>
-  </div>
-  <div>
-    <i class="devicon-figma-plain"></i>
-    <h2>FIGMA</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ullam saepe qui voluptatum vero alias libero voluptatem facilis est exercitationem!</p>
-  </div>
-</section>
-
-
-
-  </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script>
-    gsap.from(".my-anim", {
-      duration: .5,
-      opacity: 0,
-      delay: .2,
-      stagger: .2,
-      force3D: true
-    });
-  </script>
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GoIT CV</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <main class="main">
+                <div class="main-description">
+                    <h2 class="job-title">Front-End Developer</h2>
+                    <h1>John Doe</h1>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        Risus commodo viverra maecenas accumsan lacus vel
+                        facilisis.
+                    </p>
+                </div>
+                <div class="projects">
+                    <h2 class="header-primary">Projects</h2>
+                    <ol class="list-primary">
+                        <li>
+                            <a
+                                class="list-primary-item"
+                                href="https://barbershop-pl.goit.global/"
+                            >
+                                https://barbershop-pl.goit.global/</a
+                            ><span class="list-primary-item">........</span>[
+                            <span class="list-primary-item"> HTML5, CSS3 </span>
+                            ]
+                        </li>
+                        <li>
+                            <a
+                                class="list-primary-item"
+                                href="https://cryptohub.goit.global/"
+                                >https://cryptohub.goit.global/</a
+                            ><span class="list-primary-item"
+                                >................</span
+                            >[
+                            <span class="list-primary-item"> JavaScript </span>
+                            ]
+                        </li>
+                        <li>
+                            <a
+                                class="list-primary-item"
+                                href="https://kidslike.goit.global/"
+                                >https://kidslike.goit.global/</a
+                            ><span class="list-primary-item"
+                                >.....................</span
+                            >[
+                            <span class="list-primary-item">
+                                React.js, Node.js
+                            </span>
+                            ]
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h2 class="header-primary">Work Experience</h2>
+                    <h3 class="job=name">
+                        Front-End Developer
+                        <span class="highlight">Freelance</span>
+                    </h3>
+                    <p class="job-date">September 2019 - up to now | Country</p>
+                    <ul class="job-list">
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="job=name">
+                        Manager <span class="highlight">Glory New</span>
+                    </h3>
+                    <p class="job-date">March 2015 - October 2018 | Country</p>
+                    <ul class="job-list">
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod labore et dolore magna aliqua.
+                        </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="job=name">
+                        Manager <span class="highlight">Glory LLC</span>
+                    </h3>
+                    <p class="job-date">June 2014 - February 2015 | Country</p>
+                    <ul class="job-list">
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="header-primary">Education</h2>
+                    <h3 class="highlight">National University</h3>
+                    <h4 class="managment">Management</h4>
+                    <p class="job-date">September 2009 - June 2014 | Country</p>
+                </div>
+            </main>
+            <aside>
+                <img
+                    class="cv-photo"
+                    src="photo.png"
+                    width="354"
+                    alt="zdjecie Johna Doe"
+                />
+                <div class="contact-block">
+                    <h2 class="header-secondary">Contacts</h2>
+                    <p class="contact-links">
+                        <span class="bold">C:</span>
+                        <a class="contact-links" href="telto:+7 777 777 77 77"
+                            >+7 777 777 77 77 </a
+                        ><br />
+                        <span class="bold">E:</span>
+                        <a class="contact-links" href="mailto:johndoe@gmail.com"
+                            >johndoe@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="tech-skills-block">
+                    <h2 class="header-secondary">Tech skills</h2>
+                    <ul class="list-secondary">
+                        <li><span class="list-secondary-item">HTML5</span></li>
+                        <li><span class="list-secondary-item">CSS3</span></li>
+                        <li><span class="list-secondary-item">GIT</span></li>
+                        <li>
+                            <span class="list-secondary-item">WebPack</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">JavaScript</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">React.js</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">Node.js</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="soft-skills-block">
+                    <h2 class="header-secondary">Soft Skills</h2>
+                    <ul class="list-secondary">
+                        <li><span class="list-secondary-item">Scrum</span></li>
+                        <li><span class="list-secondary-item">Agile</span></li>
+                        <li><span class="list-secondary-item">GTD</span></li>
+                        <li>
+                            <span class="list-secondary-item">Teamwork</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </body>
 </html>
